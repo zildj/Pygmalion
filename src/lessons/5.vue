@@ -1,10 +1,10 @@
 <template>
   <v-container>
     <h1>
-      Variables!
+      To Be Continued!
     </h1>
     <div>
-      Description text here
+      Check bsck in for more lessons soon.
     </div>
     <br />
     <div data-no-lazy-loading data-datacamp-exercise data-lang="python">

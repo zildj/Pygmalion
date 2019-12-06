@@ -1,10 +1,10 @@
 <template>
   <v-container>
     <h1>
-      Variables!
+      Arithmetic Operations!
     </h1>
     <div>
-      Description text here
+      Python has the basic arithmetic operations built in. This means you can do addition (+), subtraction (-), multiplication (*) and division (/). Arithmetic operators can be used on two number or two variables containing numbers. This will be our first foray into making things happen with python!
     </div>
     <br />
     <div data-no-lazy-loading data-datacamp-exercise data-lang="python">
@@ -16,17 +16,20 @@
       <pre>
         <code data-type="sample-code">
           # Create a variable x and set it equal to 5
+          # Create a variable y and set it equal to 6
+          # Create a variable z and set it equal to the sum of 5 and 6 
 
-          # Print out x
+          # Print out z
         </code>
       </pre>
       <pre>
         <code data-type="solution">
           # Create a variable x and set it equal to 5
           x = 5
+          y = 6
 
           # Print out x
-          print(x)
+          print(z)
         </code>
       </pre>
       <pre>

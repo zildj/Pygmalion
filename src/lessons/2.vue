@@ -4,7 +4,7 @@
       Variables!
     </h1>
     <div>
-      Description text here
+      Variables are an important part of coding. Variables allow you to store values so you can call back to them later. This makes code easier to read later, and saves writing time. Saving a value to a variable means you don't have to get that value again every time you need it. This also prevents possible errors. When you have to type something out over and over, there's a chance you might mistype it. Variables prevent this from happening! To decalre a variable, you give it a name, like x, or my_variable, and use the equal sign (=) to set it equal to a value, like 5 or "my variable value". Variables can beging with a letter or an underscore, but not a number or other special symbols. It is also important to note that variables are case sensitive, so x is not the same as X!
     </div>
     <br />
     <div data-no-lazy-loading data-datacamp-exercise data-lang="python">
