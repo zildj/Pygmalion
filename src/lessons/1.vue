@@ -4,7 +4,9 @@
       Hello World!
     </h1>
     <div>
-      Description text here
+      Python is an incredibly powerful language used in all areas of computing, big and small. Companies like Google, Facebook, Instagram and many others use Python for its simplicity and practicality.
+      Python is known best for its lightweight, simple syntax, that means it's super easy to write, read and understand! Our first lesson is how to print things using python. Printing is known as a "function", which is just a generic term for a piece of code that does something. Functions are called by their name, followed by parentheses which contain the arguments of the function. In the case of printing, the function is called "print" and the argument is whatever you want to print! To print a string (which is just a word or words) surrounded by quotes. Use the interpreter below to try out printing!
+
     </div>
     <br />
     <div data-no-lazy-loading data-datacamp-exercise data-lang="python">
