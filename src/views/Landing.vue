@@ -1,15 +1,44 @@
 <template>
   <div>
-    <h1>Landing.vue - This is the home page (signed out)</h1>
-    <br><br>
-    <img src="https://image.shutterstock.com/image-vector/little-boy-creating-programming-smart-600w-758369878.jpg">
-    <br><br><br>
-    <div class="fancy">
-    <p>Pygmalion is a fun and interactive platform designed to create a learning environment for the Python programming language.</p>
-    <p>It is unfortunately common for language documentation to be unorganized, and unintuitive to navigate.</p>
-    <p>By laying out information in a humane and manageable way, we hope to facilitate accessibility to the proper information required to learn Python development on your own, and with a fun little twist...</p>
-    <br><br>
-    <p>You can use our navigation bar on the top right corner of the page to log in or sign up to create an account for free!</p>
-    </div>
+    <div class="parallax">
+     <div id="group1" class="parallax__group">
+       <div class="parallax__layer parallax__layer--base">
+         <div class="title-pls"> <strong>Welcome to Pygmalion! Log In or Sign Up to Get Started!</strong></div>
+       </div>
+     </div>
+     <div id="group2" class="parallax__group">
+       <div class="parallax__layer parallax__layer--base">
+         <div id="caption">
+            Pygmalion is a fun and interactive platform designed to create a learning environment for the Python programming language! While a lot of the documentation surrounding coding languages, not just Python, seems to be cluttered and overwhelming, Pygmalion helps you break it down in a  fun and engaging way!         </div>
+       </div>
+       <div class="parallax__layer parallax__layer--back">
+       </div>
+     </div>
+     <div id="group3" class="parallax__group">
+       <div class="parallax__layer parallax__layer--fore">
+         <div class="title-pls"> How Pygmalion Works! </div>
+       </div>
+       <div class="parallax__layer parallax__layer--base">
+       </div>
+     </div>
+     <div id="group4" class="parallax__group">
+       <div class="parallax__layer parallax__layer--base">
+         <div id="caption2">
+           Pygmalion uses step-by-step tutorials to help you in the world of code!
+           <h3> Steps to get started: </h3>
+         <ol>
+           <li> Go to your  <a href="./gameboard"> first lesson! </a> </li>
+           <li> Click the first square of the gameboard! </li>
+           <li> Be open minded to what Pyg the snake tries to teach you! </li>
+           <li> Keep practicing, even outside the classroom </li>
+         </ol>
+         </div>
+       </div>
+       <div class="parallax__layer parallax__layer--back">
+       </div>
+       <div class="parallax__layer parallax__layer--deep">
+       </div>
+     </div>
+   </div>
   </div>
 </template>
